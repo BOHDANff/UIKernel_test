@@ -41,7 +41,7 @@ const columns = {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <UIKernel.Grid columns={columns} model={model}/>
+        <UIKernel.Grid cols={columns} model={model}/>
   </React.StrictMode>
 );
 
